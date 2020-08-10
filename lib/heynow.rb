@@ -2,5 +2,5 @@ require "heynow/version"
 
 module Heynow
   class Error < StandardError; end
-  # Your code goes here...
+  puts "HEY!! It's curtrently #{Time.now}"
 end
